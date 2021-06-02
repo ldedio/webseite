@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            #eingabe {
+                color: blueviolet;
+                font-size: 40px;
+            }
+    </style>
+    <script>
+        function absenden() {
+            var eingabe =document.getElementById('eingabe').value
+            var ausgabe =document.getElementById('willkommen');
+            ausgabe.innerText =eingabe;
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text"id="eingabe"value="laurins Welt">
+    <button onclick="absenden()">Absenden</button> 
+    <hr>
+    <p> Hallo, Willkommen auf unserer Seite  <span id="willkommen"></span>
+    </p>
+    
+</body>
+</html>

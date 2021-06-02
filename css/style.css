@@ -1,0 +1,48 @@
+* {
+    color: white;
+    text-align:left;
+}
+body { 
+    background-color:black;
+}
+h1 {
+    color:rgb(255, 0, 0);
+    text-align:center;
+    text-decoration:underline;
+}
+h2 {
+    color:blue;
+    text-align:center;
+}
+h3 {	
+    color: green;
+    text-align:left;
+    text-decoration: underline;
+}
+
+.span1 {
+    color: orange;
+    text-decoration:underline;
+}
+.span2 {
+    color: yellow;
+}
+.span3 {
+    color: purple;
+}
+.span4 {
+    color: pink(0, 255, 13) ;
+}
+.span5 {
+    color: rgb(0, 255, 13) ;
+}
+.span6 {
+    color: rgb(255, 0, 0) ;
+}
+.p1 {	
+    color: goldenrod;
+    font-style:italic;
+}
+.p2 {	
+    color: white;
+}
